@@ -14,6 +14,6 @@ Provides a secure and efficient way to process images.
 ### 📘 Documentation
 For full usage and examples, check out:
 [link-for-docs]
-
+tl;dr - not released yet, work in progress
 
 Package Created By - Aman Pandey (https://github.com/Aman-pandey-5909)
