@@ -2,7 +2,7 @@
 
 const pictomangle = require('./src/memory_process/picto_memory');
 
-module.exports({
+module.exports=({
     pictomangle
 })
 
