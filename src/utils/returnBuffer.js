@@ -3,7 +3,7 @@ async function returnBuffer(image) {
     function isURL(img) {
         try {
             const url = new URL(img);
-            console.log('true', new URL(img));
+            // console.log('true', new URL(img));
             return url.protocol === 'http:' || url.protocol === 'https:';
         } catch (error) {
             // console.log('false');
@@ -23,7 +23,7 @@ async function returnBuffer(image) {
             // console.log('bug in 3rd elseif');
             return fs.readFileSync(image);
         } else if (isURL(image)) {
-            console.log('bug in 1st elseif');
+            // console.log('bug in 1st elseif');
             const res = await fetch(image);
             const buffer = await res.arrayBuffer();
             // console.log(Buffer.from(buffer));
